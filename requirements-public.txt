@@ -1,0 +1,3 @@
+# Preserve the supplied review requirements and add the regression import.
+-r project/requirements-review.txt
+h5py

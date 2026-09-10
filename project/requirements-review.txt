@@ -1,0 +1,10 @@
+# Review/reproduction dependencies; the original CUDA wheel build is documented
+# separately in ENVIRONMENT_REVIEW.json and Appendix A.
+numpy
+scipy
+torch==2.8.0
+torchvision==0.23.0
+matplotlib
+pillow
+psutil
+nvidia-ml-py

@@ -1,0 +1,87 @@
+{
+  "publication_component": "Reviewed aggregate results and implementation settings",
+  "assembled_date": "2026-09-10",
+  "source_archive": "FYP_Research_Release_20260910.zip",
+  "source_archive_sha256": "ded960efb67297ef0283189018600daa7ac2db3dd7a4b89380b71f074fa576fe",
+  "note": "Byte-identical aliases; no data reanalysis. No per-patient signals or checkpoints included.",
+  "files": [
+    {
+      "path": "results/main/final_main_ten_seed_registry.csv",
+      "sha256": "019210a43162ba9fa16e0a70e275e75a6b5b3341f1341dd21d4779e573fec439",
+      "bytes": 1347,
+      "source_alias": "FYP_Research_Release/results/main/final_main_ten_seed_registry.csv"
+    },
+    {
+      "path": "results/fitted_head/training_control_aggregate.csv",
+      "sha256": "15c94f04d4f0a420d9756a82132024fb5dfdb25bc67e123a5ca3452d62b1ebed",
+      "bytes": 2995,
+      "source_alias": "FYP_Research_Release/results/fitted_head/training_control_aggregate.csv"
+    },
+    {
+      "path": "results/fitted_head/training_control_paired.csv",
+      "sha256": "8408ffe17689b5763fbb881604735a88a818dac960d322db734f05db5a8ed4b8",
+      "bytes": 3726,
+      "source_alias": "FYP_Research_Release/results/fitted_head/training_control_paired.csv"
+    },
+    {
+      "path": "results/first_layer/aggregate.csv",
+      "sha256": "cb1292b56f2bf32e3a52c1a922eb24ba624d59980ce4646dd717c6b988c2081c",
+      "bytes": 7053,
+      "source_alias": "FYP_Research_Release/results/first_layer/aggregate.csv"
+    },
+    {
+      "path": "results/first_layer/corruption_effect_summary.csv",
+      "sha256": "13858be2f353a144e93f6ad1ddfd8de7e73c5a4e6ba93b70581d59df1f78b35f",
+      "bytes": 2345,
+      "source_alias": "FYP_Research_Release/results/first_layer/corruption_effect_summary.csv"
+    },
+    {
+      "path": "results/first_layer/final_summary.json",
+      "sha256": "31085d923b00d7d34cae9a6c1cfa99c0bd12eee314a0e285302fa4b7740c83e8",
+      "bytes": 526,
+      "source_alias": "FYP_Research_Release/results/first_layer/final_summary.json"
+    },
+    {
+      "path": "results/first_layer/paired_corruptions.csv",
+      "sha256": "aca8552f09d3dee7ea020a35a40486dfd423e512b65df50494a927a64026ebca",
+      "bytes": 301270,
+      "source_alias": "FYP_Research_Release/results/first_layer/paired_corruptions.csv"
+    },
+    {
+      "path": "results/first_layer/paired_selectivity.csv",
+      "sha256": "43c827ffd9f9d24f55131496284badd46f112d3011b48b943dda05441b0e4fd5",
+      "bytes": 8908,
+      "source_alias": "FYP_Research_Release/results/first_layer/paired_selectivity.csv"
+    },
+    {
+      "path": "results/first_layer/paired_training.csv",
+      "sha256": "1da963b7678e90fb19bb35ddfc5f8b2c7e2c8d73158549ba27a032814c9f573c",
+      "bytes": 29701,
+      "source_alias": "FYP_Research_Release/results/first_layer/paired_training.csv"
+    },
+    {
+      "path": "results/first_layer/statistical_registry_replacement_378.csv",
+      "sha256": "fa72fa3d01c68cc0c1abe1eef91b671e58cd36dbd4b1d12e1e1b795922687823",
+      "bytes": 161823,
+      "source_alias": "FYP_Research_Release/results/first_layer/statistical_registry_replacement_378.csv"
+    },
+    {
+      "path": "results/physiology/physiology_summary_patient46.csv",
+      "sha256": "caa8b5f66f00941294ae76ec81119c49a9714065644bd4fc63cd1c1c3eb2da6f",
+      "bytes": 25298,
+      "source_alias": "FYP_Research_Release/results/physiology/physiology_summary_patient46.csv"
+    },
+    {
+      "path": "results/physiology/physiology_paired_holm_patient46.csv",
+      "sha256": "ac243bfc24ae394ad42b700757017eaaadd104ca378e1bd8593b30d983e56e35",
+      "bytes": 50444,
+      "source_alias": "FYP_Research_Release/results/physiology/physiology_paired_holm_patient46.csv"
+    },
+    {
+      "path": "protocols/implementation_settings.tex",
+      "sha256": "c5301becf6a8a6296420b51682d6b8e2a2049c9dfc442b8d41ec69ec2370c14b",
+      "bytes": 1538,
+      "source_alias": "FYP_Research_Release/protocols/implementation_settings.tex"
+    }
+  ]
+}

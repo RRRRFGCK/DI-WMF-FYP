@@ -1,0 +1,24 @@
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}p{0.34\textwidth}X@{}}
+\toprule
+Component & Setting used in the reported study \\
+\midrule
+Image patch selection & Two highest-variance patches per image; deterministic, class-balanced fitting \\
+StandardCNN template counts & Four templates per class in Conv1 and eight per class in Conv2 (40/80 channels) \\
+Main low-rank image bank & Rank 16; one bank-wide scale factor matching Kaiming fan-in variance \\
+Initial logit-scale estimation & Training partition only; at most ten fitting batches \\
+1D input and stem & 30~Hz; 288 samples; stem length 150; eight channels \\
+1D stem regularisation & $\gamma=0.1$; $\epsilon=\max\{10^{-8},10^{-4}\operatorname{tr}(C_{xx})/150\}$ \\
+1D matched-filter gain & Individual centring and normalisation, followed by fixed gain $\sqrt{4/3}$ \\
+Safe calibration head & Forward gain clipped to $[-10,10]$; minimum absolute backward gain 0.05; three-epoch head-only warm-up \\
+Pearson / spectral weights & MSE $(0,0)$; Pearson $(0.1,0)$; spectral $(0,0.1)$; combined $(0.1,0.1)$ \\
+Lag-tolerant training & 21 lags, $-30,-27,\ldots,30$ samples; 228-sample core; soft temperature 0.05 \\
+Maximum-lag evaluation & All 61 integer offsets from $-30$ to $30$ samples \\
+Respiratory-rate extraction & 30.6-second window; one-second stride; unpadded 918-point FFT; 0.08--0.8~Hz band \\
+\bottomrule
+\end{tabularx}
+\caption{Principal numerical settings consolidated from the method and evaluation.}
+\label{tab:implementation-settings}
+\end{table}

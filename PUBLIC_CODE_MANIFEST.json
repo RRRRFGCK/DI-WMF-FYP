@@ -1,0 +1,932 @@
+{
+  "schema_version": 1,
+  "name": "DI-WMF-FYP public scientific code snapshot",
+  "staged_date": "2026-09-10",
+  "scope": "Frozen Python source and original requirements only; README and result subsets are maintained separately.",
+  "file_count": 97,
+  "python_file_count": 96,
+  "source_manifest_hashes": {
+    "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv": "8f5f675aad7851201248b3724d1a340e2e1106a6262a8f7317eb3ea2e0f0ff63",
+    "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json": "6886db8267a8b87f42113bd3fc0ed20b267dd576d38b84966c37535abc997010"
+  },
+  "files": [
+    {
+      "path": "project/analyze_adaptive_sparse_efficiency.py",
+      "bytes": 8786,
+      "sha256": "27b46319dadb37e30488be7b57cc1ecd54f0354c205ae2fe07947ff1bd46ee9a",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_adaptive_sparse_efficiency.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_augmentation.py",
+      "bytes": 5239,
+      "sha256": "b449e07290319f6de8a469b738aa51ce37a6020b3c530e736dff310576761580",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_augmentation.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_convergence.py",
+      "bytes": 5288,
+      "sha256": "d9c69169ee26a2027e7ae2e88f838f752338727cb387b352a0531639cfe9ddd6",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_convergence.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_correncoder_ablation.py",
+      "bytes": 5458,
+      "sha256": "7a9dd404b515844c3f191bf2abffaea65463dd16756f397168cf059f3be13dd0",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_correncoder_ablation.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_correncoder_epoch0_extended.py",
+      "bytes": 3033,
+      "sha256": "6000a66347049fcc30b26ec6327ba099176f84852d07501c2bb96d0558cbd703",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_correncoder_epoch0_extended.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_correncoder_extensions.py",
+      "bytes": 10207,
+      "sha256": "b4c4d1f153892864fc1cf9558e64643e39800cdcb2f1b0e838183a2cb04f0ba2",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_correncoder_extensions.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_correncoder_regression.py",
+      "bytes": 1820,
+      "sha256": "e832cfcd3e662b581a1e5c062c02dfa9997fc24badbe95950d049ec7d9c7dbbc",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_correncoder_regression.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_cross_architecture_post_aulc.py",
+      "bytes": 3524,
+      "sha256": "34fc365271e991f881b8e2b63328dbf855d63195b0253ccf32ac19129f126dc1",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_cross_architecture_post_aulc.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_efficiency.py",
+      "bytes": 7854,
+      "sha256": "4e40c3a94f5337c53c079bdfbeff6b01bbadb91bb96478918eca84c893a09741",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_efficiency.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_first_layer_cross_task.py",
+      "bytes": 15321,
+      "sha256": "1515be053f9a3499e1aa0f45db68a9eb2a4707539e362efd8fbbc1af70775a7e",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_first_layer_cross_task.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_fitted_head_training_control.py",
+      "bytes": 6662,
+      "sha256": "91e540538431d415061a6060a40cf574169a908d336d286e39754fdbed4da591",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_fitted_head_training_control.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_frontier_results.py",
+      "bytes": 7535,
+      "sha256": "036bb574c2e1e7461c75d57a2e0e13320faca8f2fec09719469fa6f098a7d88b",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_frontier_results.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_multiple_comparisons.py",
+      "bytes": 16272,
+      "sha256": "d43ac57f71df2e12cf74f39fa1746eab5eb310bff77b26e70f983e3a8b004025",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_multiple_comparisons.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_submission_controls.py",
+      "bytes": 6141,
+      "sha256": "bd558ef9879893f482c82b523d2388723b7146ad23a1847e9c9a85bbaf0e5cb2",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_submission_controls.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/analyze_total_cost.py",
+      "bytes": 16597,
+      "sha256": "c68e303e62814bc7f08495b6892a9b4c9ce6326a2187e76dc58a4173676e2483",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_total_cost.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/__init__.py",
+      "bytes": 518,
+      "sha256": "b9b42a20073203b37ca96b122f5e536f55b52cb7dfd70d72ddc55a59713f1cbe",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/__init__.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/adaptive.py",
+      "bytes": 4534,
+      "sha256": "937c27ab2d77cf7e3fb7d80a6a3d11f6212bcf23694374054f48292da0b72869",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/adaptive.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/corruptions.py",
+      "bytes": 7589,
+      "sha256": "7faed1478681c696fea24080ce8c0d8f53b30a72757447a1023b088a5dd83f49",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/corruptions.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/data.py",
+      "bytes": 5782,
+      "sha256": "949733e17b7be84973b54cba039b8e1b4e4037718c5b1e1c489c194824b20310",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/data.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/energy.py",
+      "bytes": 4825,
+      "sha256": "0cf2a23ea6cdd6bdd22b4e8a8ae2c5e46846927b2b199e6497138718a7e99b13",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/energy.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/faithfulness.py",
+      "bytes": 4713,
+      "sha256": "fdd532026852202c9250a84c74395f285a9fe152b07b2437a214550a245bf659",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/faithfulness.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/initializers.py",
+      "bytes": 48046,
+      "sha256": "bdc75ccacd799ef9bc8bd0ae6f8994f51da43244b9567569093bd146f13b41e3",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/initializers.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/interpretability.py",
+      "bytes": 3774,
+      "sha256": "8b33d964de85021871faea5477bcef840bfdc3678fbae19bedf05ee84c585ddf",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/interpretability.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/metrics.py",
+      "bytes": 1368,
+      "sha256": "5f43d7eb72cc13f8bcd25d92c2df7519d05bd894a1af91dac724e5338ef22d7f",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/metrics.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/models.py",
+      "bytes": 23430,
+      "sha256": "5ff5c8cc94b2ffdc70f637ee7a8261d60891adc6d6c32fa75126129c7a39c8da",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/models.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/regression.py",
+      "bytes": 29080,
+      "sha256": "e92a86577b4bd2118420cbc5f36cb2932ad35e97cdaa6c443e9da4c1e33c3e59",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/regression.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/domain_mf/trainer.py",
+      "bytes": 9869,
+      "sha256": "8b46262f843eae79548a8e00062b420ac4cb9874d1203823abda4fc0c984aedf",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/domain_mf/trainer.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_classical_rr_baselines.py",
+      "bytes": 6866,
+      "sha256": "6d4f494fe7edf69ae0847b32766ac6f4bcf47fabdd5656af2aa009da520dfb5f",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_classical_rr_baselines.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_correncoder_epoch0.py",
+      "bytes": 7387,
+      "sha256": "f4a2fbaae4e1e0d535c583f68b943e36ae497b5cca02be4c718150e7975808f2",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_correncoder_epoch0.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_corruptions.py",
+      "bytes": 13902,
+      "sha256": "19a9faedcf2e3eb9d76f3347bcc0113f4d999701a541a14e0c4ab623c85c4363",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_corruptions.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_epoch0_factorial.py",
+      "bytes": 11519,
+      "sha256": "9c3fd2172e4beee5b56e02042b84faf4f8743718604478483afe4923be77872a",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_epoch0_factorial.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_faithfulness.py",
+      "bytes": 24904,
+      "sha256": "06df66bc0228ad662c7e00d2b5ec730b3444ac1453850e33b8543967ff0d66b8",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_faithfulness.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_filter_selectivity.py",
+      "bytes": 7908,
+      "sha256": "a3c7b83cbaaade1b08dd44a8fa5ff4be59f3a249257d38d3d55ffb935745af67",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_filter_selectivity.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_pruning.py",
+      "bytes": 12093,
+      "sha256": "e9163368fe0409a17c7bd05aa6fa81d9a4afe21187900516e64c4eb9872efb4f",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_pruning.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_reliability.py",
+      "bytes": 19695,
+      "sha256": "7d60b38c0a4e6d6e187eb64cbf2f42b1d3fb85b34d24748a8936205f7907aeb9",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_reliability.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_rotation_invariance.py",
+      "bytes": 10927,
+      "sha256": "4541076427b8e851b9927eb7e4e764ea83a6fd29c55b0c19863302ecd22873c6",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_rotation_invariance.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_structured_efficiency.py",
+      "bytes": 22782,
+      "sha256": "8b28c186582604dd4cc30005d957fd14cabae5bfff087ebec7fc2e36dcdac2a0",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_structured_efficiency.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/evaluate_template_semantics.py",
+      "bytes": 24122,
+      "sha256": "f0e7ee671f03dc6f28fdf3e7de06ad9730e40f72e5fe60e1d60e2609f4745f58",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_template_semantics.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/make_mnist_cnn_explainer.py",
+      "bytes": 9487,
+      "sha256": "a43b80a3cd4094c4cc091f4f46423734eaaca3a56b8e40f4e9a0b3eac0221d23",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/make_mnist_cnn_explainer.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/make_submission_control_figures.py",
+      "bytes": 25422,
+      "sha256": "d43deac05210556017ac782a89f02061c4a2405500887c370cbed763d55c8386",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/make_submission_control_figures.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/make_thesis_artifacts.py",
+      "bytes": 25705,
+      "sha256": "5c3405fc8476d765dc5b7f6c947161ce5d2b373f12b3d3cadfdc96fb64d8c15e",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/make_thesis_artifacts.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/make_visual_story_figures.py",
+      "bytes": 54018,
+      "sha256": "38dad5f7194b7b6ccc5dbb290aaea39a8be3a8fa174d828e4dc568d83f645561",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/make_visual_story_figures.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/evaluate_rr_patient46.py",
+      "bytes": 34587,
+      "sha256": "74847d5d5cdb803b23c79aea5048be5e5d95c768e9a51b6efedecd30885e5b3f",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/evaluate_rr_patient46.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/analyze_shared_first_layer.py",
+      "bytes": 11879,
+      "sha256": "fbe8e9ca2302e59f474e2d8b21897a8b30789c200334eb98da65c663403d9e98",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/analyze_shared_first_layer.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/evaluate_shared_first_layer.py",
+      "bytes": 7967,
+      "sha256": "450dbc9873e13f4dbab84be3d5df3a7da0377b21ba6ce79d3afc918cf0890365",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/evaluate_shared_first_layer.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/evaluate_shared_first_layer_v1.py",
+      "bytes": 6923,
+      "sha256": "134e591f23fb5980f53a7728b74e1edeeb7bb54b32cdb0aa387807ffd8a41b05",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/evaluate_shared_first_layer_v1.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/evaluation_source/analyze_first_layer_cross_task.py",
+      "bytes": 15321,
+      "sha256": "1515be053f9a3499e1aa0f45db68a9eb2a4707539e362efd8fbbc1af70775a7e",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/evaluation_source/analyze_first_layer_cross_task.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/evaluation_source/analyze_multiple_comparisons.py",
+      "bytes": 16272,
+      "sha256": "d43ac57f71df2e12cf74f39fa1746eab5eb310bff77b26e70f983e3a8b004025",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/evaluation_source/analyze_multiple_comparisons.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/evaluation_source/evaluate_corruptions.py",
+      "bytes": 13902,
+      "sha256": "19a9faedcf2e3eb9d76f3347bcc0113f4d999701a541a14e0c4ab623c85c4363",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/evaluation_source/evaluate_corruptions.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/evaluation_source/evaluate_filter_selectivity.py",
+      "bytes": 7908,
+      "sha256": "a3c7b83cbaaade1b08dd44a8fa5ff4be59f3a249257d38d3d55ffb935745af67",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/evaluation_source/evaluate_filter_selectivity.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/exact_occlusion.py",
+      "bytes": 2720,
+      "sha256": "3b7d888c4b8233a9361a80375085d8dbb1d70d299e7b3564c37a7b78e97262c3",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/exact_occlusion.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/qa/test_cpu_occlusion_equivalence.py",
+      "bytes": 3275,
+      "sha256": "731d1a45fce865ff550a1d5d46ae05046673a78264c8a0b7a430d927c47052a7",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/qa/test_cpu_occlusion_equivalence.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/qa/test_protocol_and_statistics_cpu.py",
+      "bytes": 8359,
+      "sha256": "3456f4133698fcd4c0b4f070a3e3b9709ad496f73f7349ebad88ecc57397411d",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/qa/test_protocol_and_statistics_cpu.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/run_shared_first_layer.py",
+      "bytes": 18019,
+      "sha256": "af049190ccf96cdd9933287de650b3e6b4e499f1f655175e5e36e929d9895a6e",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/run_shared_first_layer.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/run_shared_first_layer_v1_aggregate_typo.py",
+      "bytes": 18011,
+      "sha256": "ceb80e8af555b02c1bdd1a587f36ba12aff02b47503b88133ed6ebf52beea2e4",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/run_shared_first_layer_v1_aggregate_typo.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/__init__.py",
+      "bytes": 518,
+      "sha256": "b9b42a20073203b37ca96b122f5e536f55b52cb7dfd70d72ddc55a59713f1cbe",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/__init__.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/adaptive.py",
+      "bytes": 4534,
+      "sha256": "937c27ab2d77cf7e3fb7d80a6a3d11f6212bcf23694374054f48292da0b72869",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/adaptive.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/corruptions.py",
+      "bytes": 7589,
+      "sha256": "7faed1478681c696fea24080ce8c0d8f53b30a72757447a1023b088a5dd83f49",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/corruptions.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/data.py",
+      "bytes": 5782,
+      "sha256": "949733e17b7be84973b54cba039b8e1b4e4037718c5b1e1c489c194824b20310",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/data.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/energy.py",
+      "bytes": 4825,
+      "sha256": "0cf2a23ea6cdd6bdd22b4e8a8ae2c5e46846927b2b199e6497138718a7e99b13",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/energy.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/faithfulness.py",
+      "bytes": 4713,
+      "sha256": "fdd532026852202c9250a84c74395f285a9fe152b07b2437a214550a245bf659",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/faithfulness.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/initializers.py",
+      "bytes": 48046,
+      "sha256": "bdc75ccacd799ef9bc8bd0ae6f8994f51da43244b9567569093bd146f13b41e3",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/initializers.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/interpretability.py",
+      "bytes": 3774,
+      "sha256": "8b33d964de85021871faea5477bcef840bfdc3678fbae19bedf05ee84c585ddf",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/interpretability.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/metrics.py",
+      "bytes": 1368,
+      "sha256": "5f43d7eb72cc13f8bcd25d92c2df7519d05bd894a1af91dac724e5338ef22d7f",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/metrics.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/models.py",
+      "bytes": 23430,
+      "sha256": "5ff5c8cc94b2ffdc70f637ee7a8261d60891adc6d6c32fa75126129c7a39c8da",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/models.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/regression.py",
+      "bytes": 29080,
+      "sha256": "e92a86577b4bd2118420cbc5f36cb2932ad35e97cdaa6c443e9da4c1e33c3e59",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/regression.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/trainer.py",
+      "bytes": 9869,
+      "sha256": "8b46262f843eae79548a8e00062b420ac4cb9874d1203823abda4fc0c984aedf",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/domain_mf/trainer.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/source/run_experiment.py",
+      "bytes": 11572,
+      "sha256": "2d869b120253a0bcbf1f8be7805ff216101f55771b53814a843236002b765ea8",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/source/run_experiment.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/first_layer/verify_completed_repairs.py",
+      "bytes": 4865,
+      "sha256": "945f2cb04f1b73cc082ef98349e9fc50dc1919d190831459a0ae18f645e277f2",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/first_layer/verify_completed_repairs.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/plot_rr_patient46_figures.py",
+      "bytes": 17216,
+      "sha256": "f7526d0edc75046325f2b0dbbf25cda422b4ee6de3386ef7027b2ae16fb8fd23",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/plot_rr_patient46_figures.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/qa_rr_patient46.py",
+      "bytes": 5634,
+      "sha256": "7d208f6b6e493d5ec2e3ef49912db2a4bda5c2efcd9a24457fc6dc228d019e7f",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/qa_rr_patient46.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/finalize_patient46.py",
+      "bytes": 7826,
+      "sha256": "f50dc07b0f854d88daa904e7d0c736eac9dfd63841f1d559f609bd8d45030670",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/finalize_patient46.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/freeze_sources.py",
+      "bytes": 1229,
+      "sha256": "3ddf78ec5d2f6b81c471cd59e3a3bc8fdfc790e67dc6ebd25eedb5acfb4fdfbe",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/freeze_sources.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/frozen_training_source/domain_mf/models.py",
+      "bytes": 23430,
+      "sha256": "5ff5c8cc94b2ffdc70f637ee7a8261d60891adc6d6c32fa75126129c7a39c8da",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/frozen_training_source/domain_mf/models.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/frozen_training_source/domain_mf/regression.py",
+      "bytes": 29080,
+      "sha256": "e92a86577b4bd2118420cbc5f36cb2932ad35e97cdaa6c443e9da4c1e33c3e59",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/frozen_training_source/domain_mf/regression.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/frozen_training_source/run_correncoder_patient_loso.py",
+      "bytes": 24428,
+      "sha256": "ef90e35850d88d2304cb45b26bfdfa7c59d968cbb2ae59b2ab9d5c0e5d6029c6",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/frozen_training_source/run_correncoder_patient_loso.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/frozen_training_source/run_correncoder_regression.py",
+      "bytes": 28734,
+      "sha256": "3bdd33deb5975f880b75c1e0871120ef497779dba0faa3ea361d43c27663a7c7",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/frozen_training_source/run_correncoder_regression.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/redraw_f14_patient46.py",
+      "bytes": 15437,
+      "sha256": "4a124bed84586f5c8d88966601caeb96bba1eb4446c7a6a90a09f871ceb85795",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/redraw_f14_patient46.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/replay_new_patient_checkpoints.py",
+      "bytes": 3952,
+      "sha256": "3c6139fbf2280f1c48eb5e9898d475eee84d1fd0ab1c64794b06ac2ca4c00554",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/replay_new_patient_checkpoints.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/regression/verify_patient46.py",
+      "bytes": 6940,
+      "sha256": "da8a29f66af5a36b12eb90e4fda7c8a5ebca23224e70cd2913f3b7b96d6e0e1d",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/regression/verify_patient46.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/rr_cpu_legacy.py",
+      "bytes": 5338,
+      "sha256": "3ab85cf8cd29082ee1aeaf656d92895c684b3166159a7501d9ffe2b0698043e5",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/rr_cpu_legacy.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/summarize_prepared_rr_classical.py",
+      "bytes": 1509,
+      "sha256": "2264c6798c417f46d9bb953153c378d27dace8e79fff00359279d216e2f85940",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "output/repairs/FYP6_REPAIR_20260908/summarize_prepared_rr_classical.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/plot_correncoder_results.py",
+      "bytes": 4152,
+      "sha256": "09e6ad6422dd7728dbaa392627ec87f1eeba8b2ce2efc1303a563bd9e6cae1a0",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/plot_correncoder_results.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/pretrain_correncoder_capnobase.py",
+      "bytes": 4545,
+      "sha256": "744fc2656e00cbd642d3e401033335a51252f58670963100148af715a73ff4f8",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/pretrain_correncoder_capnobase.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/requirements-review.txt",
+      "bytes": 219,
+      "sha256": "9cb6275c42bcc24f19ac39ba7a0c6a53a1198ad07f45e652f9408a7de3954d4c",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/requirements-review.txt",
+      "source_modified": false
+    },
+    {
+      "path": "project/review_audit/aulc/analyze_cross_architecture_post_aulc_final.py",
+      "bytes": 8549,
+      "sha256": "82482705fcc5c7a34e63c8592676002e1a1852900e0200b40bb8c0e92c1d3e73",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/review_audit/aulc/analyze_cross_architecture_post_aulc_final.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/review_audit/aulc/verify_aulc_from_histories.py",
+      "bytes": 17220,
+      "sha256": "14a40fb56ce8ec994d251f96178f92ac8c393f31149a3532ad540d93e68f7f31",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/review_audit/aulc/verify_aulc_from_histories.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/run_correncoder_patient_loso.py",
+      "bytes": 24428,
+      "sha256": "ef90e35850d88d2304cb45b26bfdfa7c59d968cbb2ae59b2ab9d5c0e5d6029c6",
+      "snapshot": "repair_frozen_source_snapshot_20260908_20260909",
+      "source_manifest": "output/repairs/FYP6_REPAIR_20260908/evidence_package_manifest.json",
+      "source_relative_path": "run_correncoder_patient_loso.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/run_correncoder_regression.py",
+      "bytes": 28734,
+      "sha256": "3bdd33deb5975f880b75c1e0871120ef497779dba0faa3ea361d43c27663a7c7",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/run_correncoder_regression.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/run_experiment.py",
+      "bytes": 11572,
+      "sha256": "2d869b120253a0bcbf1f8be7805ff216101f55771b53814a843236002b765ea8",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/run_experiment.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/run_fitted_head_training_control.py",
+      "bytes": 6666,
+      "sha256": "da74953727b0c441bd511214beccdb57158f7ab8033793b8ef328899b06c4226",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/run_fitted_head_training_control.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/run_matrix.py",
+      "bytes": 8432,
+      "sha256": "73a9514c91f6f0d419b44aa9c18167248c2775aff1b7d0ebb2a9a04da50d7303",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/run_matrix.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/run_sign_user_loso.py",
+      "bytes": 14100,
+      "sha256": "51c7ab4a9d20da5ecc5ca9fa73cf1c441d421eb204e1174d87afa8f56c25086b",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/run_sign_user_loso.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/summarize_results.py",
+      "bytes": 7441,
+      "sha256": "824d6e7342bf6dbdf0d22fd319a359b0c4c498a75fad20b58e6923b745177c27",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/summarize_results.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/tests/test_core.py",
+      "bytes": 21999,
+      "sha256": "b010ab12852e7bfc5da1aa43854a2736746cbcac2f31f6c4fe26fc9eb8f5c5a5",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/tests/test_core.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/tests/test_corruptions.py",
+      "bytes": 2356,
+      "sha256": "84f56d73bc157a43ca2a7e57ee9983eb1d28057c0fddd7a21a5fe351c2ef83cd",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/tests/test_corruptions.py",
+      "source_modified": false
+    },
+    {
+      "path": "project/tests/test_statistics.py",
+      "bytes": 780,
+      "sha256": "592893cb710b5eed783f80e46ca534b654ab128a885aadef2e6970f947b69287",
+      "snapshot": "original_source_snapshot_20260906",
+      "source_manifest": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/PACKAGE_MANIFEST.csv",
+      "source_relative_path": "output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/tests/test_statistics.py",
+      "source_modified": false
+    }
+  ],
+  "explicit_source_exclusions": [
+    {
+      "path": "project/audit_submission_records.py",
+      "reason": "Submission/package audit, outside the public scientific-code subset."
+    },
+    {
+      "path": "project/make_complete_thesis_package.py",
+      "reason": "Manuscript/package builder, outside the public scientific-code subset."
+    },
+    {
+      "path": "project/make_poster2_wide_hero.py",
+      "reason": "Poster-layout builder, outside the scientific experiment/figure subset."
+    },
+    {
+      "path": "project/prepare_overleaf_draft.py",
+      "reason": "Manuscript generator containing a private installation path and CID field."
+    },
+    {
+      "path": "project/verify_package.py",
+      "reason": "Historical package verifier; not needed for source execution and differs in the current checkout."
+    }
+  ],
+  "excluded_categories": [
+    "Raw image and physiological datasets, processed reference waveforms and predictions",
+    "Checkpoints, tensors, per-run histories, configurations, logs and participant-level records",
+    "Manuscript source, personal metadata, original package manifests and local release documents",
+    "Unselected archive/package builders and manuscript/poster preparation scripts"
+  ],
+  "dependency_caveats": [
+    "h5py is imported by regression code but absent from the byte-preserved requirements-review.txt; install it separately.",
+    "Historical first-layer repair execution needs original configurations and filters_initial.pt, not included in this code subset.",
+    "Patient-group repair execution needs historical registry/configuration/checkpoint records and independently acquired datasets.",
+    "Frozen nested sources and historical v1 variants are retained as provenance; do not flatten their paths or treat every script as a standalone launcher.",
+    "The original environment uses PyTorch 2.8.0 and torchvision 0.23.0; several training and timing paths require CUDA."
+  ],
+  "verification": {
+    "all_payload_hashes_match_frozen_manifests": true,
+    "python_ast_parse_passed": 96,
+    "selected_source_private_path_cid_and_credential_marker_scan": "no matches",
+    "marker_scan_is_not_a_complete_security_or_rights_audit": true,
+    "experiments_or_inference_executed": false,
+    "upload_performed": false
+  },
+  "provenance_note": "These are preserved source snapshots from the assembled research release, not recovered experiment-time Git commits.",
+  "manifest_self_exclusion": "PUBLIC_CODE_MANIFEST.json is not included in its own files array."
+}

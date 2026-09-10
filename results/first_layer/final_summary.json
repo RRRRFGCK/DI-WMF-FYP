@@ -1,0 +1,18 @@
+{
+  "training_runs": 140,
+  "evaluated_checkpoints": 140,
+  "corruption_observations": 14560,
+  "selectivity_observations": 140,
+  "replacement_registry_hypotheses": 378,
+  "scope_significant": 100,
+  "family_wide_significant": 44,
+  "all_378_significant": 32,
+  "scope_policy": "Inherited historical retrospective dataset-by-metric scopes; supplementary whole-family and whole-repair sensitivity",
+  "seeds": {
+    "fashion": 5,
+    "cifar10": 5,
+    "sign": 10
+  },
+  "epochs": 10,
+  "train_fraction": 0.1
+}
