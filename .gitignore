@@ -1,0 +1,21 @@
+# Local credentials and machine-specific files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+# Datasets and checkpoints are distributed separately where permitted
+/data/
+/datasets/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.zip
