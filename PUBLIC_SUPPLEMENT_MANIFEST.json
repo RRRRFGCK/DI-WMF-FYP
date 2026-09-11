@@ -1,0 +1,236 @@
+{
+  "source_archive": "FYP_Research_Release_20260910.zip",
+  "source_archive_sha256": "ded960efb67297ef0283189018600daa7ac2db3dd7a4b89380b71f074fa576fe",
+  "source_modified": false,
+  "files": [
+    {
+      "path": "project/ENVIRONMENT_REVIEW.json",
+      "bytes": 595,
+      "sha256": "8966f1d4c11fb04a73f570105320c70f806b76ff19333d7e63b2149f91768ea6",
+      "source_archive_path": "FYP_Research_Release/project/ENVIRONMENT_REVIEW.json"
+    },
+    {
+      "path": "project/HISTORICAL_PROJECT_README.md",
+      "bytes": 29918,
+      "sha256": "7fd48a734c580081a2e05d38fcf7890094a81de0706db704fa654defb818c65c",
+      "source_archive_path": "FYP_Research_Release/project/HISTORICAL_PROJECT_README.md"
+    },
+    {
+      "path": "project/RUN_AND_VERIFY.md",
+      "bytes": 6760,
+      "sha256": "96d7f30c59fc5b9c2fabd2665f58ccdae86c0a5be203e4d73ff158b51b080eb4",
+      "source_archive_path": "FYP_Research_Release/project/RUN_AND_VERIFY.md"
+    },
+    {
+      "path": "project/audit_submission_records.py",
+      "bytes": 12077,
+      "sha256": "68278062ac8f5bda57ed60bfbac1b5b3ff537524a3123ae921280af3f2c46fcd",
+      "source_archive_path": "FYP_Research_Release/project/audit_submission_records.py"
+    },
+    {
+      "path": "project/build_current_result_index.py",
+      "bytes": 25583,
+      "sha256": "e3377a52567de2cf2139c672d9b9c469883faddc41bef2e03f8adf9779249c59",
+      "source_archive_path": "FYP_Research_Release/project/build_current_result_index.py"
+    },
+    {
+      "path": "project/make_complete_thesis_package.py",
+      "bytes": 38817,
+      "sha256": "c37f0d813289f4a3ed25a67346023f5408db675c97fb12d58fbd86a71c99fb5c",
+      "source_archive_path": "FYP_Research_Release/project/make_complete_thesis_package.py"
+    },
+    {
+      "path": "project/make_poster2_wide_hero.py",
+      "bytes": 5462,
+      "sha256": "385c0343c281d76dbba90e8501531aa252394d0adbb7cb6865d7f33fb9e47adb",
+      "source_archive_path": "FYP_Research_Release/project/make_poster2_wide_hero.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/build_report.py",
+      "bytes": 6091,
+      "sha256": "115602d0742cf688e4d70ee241abbfe9f7b8e554808edf2fbe92949e21ecf8c1",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/build_report.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/initializer/check_saved_resnet.py",
+      "bytes": 1023,
+      "sha256": "c4357b49c60af066d990248d703333fc21283c62bf87abb1dcd174a3dc24f544",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/initializer/check_saved_resnet.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/initializer/numerical_checks.py",
+      "bytes": 7416,
+      "sha256": "c59464e99cfa95dcbf58ba607ac01f345527c722575b694a8eca2a750e2af55a",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/initializer/numerical_checks.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/initializer/replay_sign_epoch0.py",
+      "bytes": 3339,
+      "sha256": "0fc9a960b675d2b5b0e1512685dfb20c38faf1bb4fc2d05bcb8170b498e27c97",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/initializer/replay_sign_epoch0.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/mechanism_checks.py",
+      "bytes": 3875,
+      "sha256": "861af97e4ebaea44667898167110974689fecae1e003cc18373b1df747495519",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/mechanism_checks.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/package_audit.py",
+      "bytes": 1610,
+      "sha256": "8fdfa9278c825d5f30ba6ad3cd311b0713f09900a0a5e3380c6ad4c370f40102",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/package_audit.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/prepare_snapshot.py",
+      "bytes": 1621,
+      "sha256": "cb182d65a3d693eeab3e4d96e474155270859f0f54bfb7b576b963858b0ffa0d",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/prepare_snapshot.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/qa_report.py",
+      "bytes": 1932,
+      "sha256": "36f0dc37475306a4b0fc21b5e4cd595a388d1719b223678b5f9e7e9149abd77d",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/qa_report.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/regression/identity_audit.py",
+      "bytes": 6591,
+      "sha256": "388647a63f4c7d52f227bf05cf26cc23f0dcec4e00296cf46649e95f0e471774",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/regression/identity_audit.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/regression/numerical_audit.py",
+      "bytes": 13127,
+      "sha256": "06f829ff68237f874f41d7a2535905bb0ff235cc06a3d8e6ebb578ba9264c7c3",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/regression/numerical_audit.py"
+    },
+    {
+      "path": "project/output/audits/FYP6_DEEP_AUDIT_20260908/statistics/audit_core_statistics.py",
+      "bytes": 12869,
+      "sha256": "cd738de9a1445cea06d6bd225d5176333b7a4ffd60414787d399e374f9b29b69",
+      "source_archive_path": "FYP_Research_Release/project/output/audits/FYP6_DEEP_AUDIT_20260908/statistics/audit_core_statistics.py"
+    },
+    {
+      "path": "project/output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_fitted_head_training_control.py",
+      "bytes": 6662,
+      "sha256": "91e540538431d415061a6060a40cf574169a908d336d286e39754fdbed4da591",
+      "source_archive_path": "FYP_Research_Release/project/output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/analyze_fitted_head_training_control.py"
+    },
+    {
+      "path": "project/output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_template_semantics.py",
+      "bytes": 24122,
+      "sha256": "f0e7ee671f03dc6f28fdf3e7de06ad9730e40f72e5fe60e1d60e2609f4745f58",
+      "source_archive_path": "FYP_Research_Release/project/output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/evaluate_template_semantics.py"
+    },
+    {
+      "path": "project/output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/make_complete_thesis_package.py",
+      "bytes": 38817,
+      "sha256": "c37f0d813289f4a3ed25a67346023f5408db675c97fb12d58fbd86a71c99fb5c",
+      "source_archive_path": "FYP_Research_Release/project/output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/make_complete_thesis_package.py"
+    },
+    {
+      "path": "project/output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/make_submission_control_figures.py",
+      "bytes": 25422,
+      "sha256": "d43deac05210556017ac782a89f02061c4a2405500887c370cbed763d55c8386",
+      "source_archive_path": "FYP_Research_Release/project/output/pdf/FYP3_RECORDS_REVISION_20260906/FYP_Code_Records_Audit/make_submission_control_figures.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/frozen_sources/analyze_fitted_head_training_control.py",
+      "bytes": 6662,
+      "sha256": "91e540538431d415061a6060a40cf574169a908d336d286e39754fdbed4da591",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/frozen_sources/analyze_fitted_head_training_control.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/frozen_sources/evaluate_template_semantics.py",
+      "bytes": 24122,
+      "sha256": "f0e7ee671f03dc6f28fdf3e7de06ad9730e40f72e5fe60e1d60e2609f4745f58",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/frozen_sources/evaluate_template_semantics.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/frozen_sources/make_complete_thesis_package.py",
+      "bytes": 38817,
+      "sha256": "c37f0d813289f4a3ed25a67346023f5408db675c97fb12d58fbd86a71c99fb5c",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/frozen_sources/make_complete_thesis_package.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/frozen_sources/make_submission_control_figures.py",
+      "bytes": 25422,
+      "sha256": "d43deac05210556017ac782a89f02061c4a2405500887c370cbed763d55c8386",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/frozen_sources/make_submission_control_figures.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/redraw_f22_f09.py",
+      "bytes": 13656,
+      "sha256": "03b2d868a5ae3c02f1da579259336a474cc35ba8d77635aeee41adfa65ac9e65",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/figure_label_cleanup/redraw_f22_f09.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/index_sources/analyze_efficiency_inspected.py",
+      "bytes": 7854,
+      "sha256": "4e40c3a94f5337c53c079bdfbeff6b01bbadb91bb96478918eca84c893a09741",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/index_sources/analyze_efficiency_inspected.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/index_sources/metrics_inspected.py",
+      "bytes": 1368,
+      "sha256": "5f43d7eb72cc13f8bcd25d92c2df7519d05bd894a1af91dac724e5338ef22d7f",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/index_sources/metrics_inspected.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/package_repair_evidence.py",
+      "bytes": 16857,
+      "sha256": "cf41955649c00a9343598ad26295f698e5cd2966dd62370cf0769362ea3abd3b",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/package_repair_evidence.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/qa_rr_figures_patient46.py",
+      "bytes": 4276,
+      "sha256": "c8cabeb0cbd12e597820464c718169bad54ec66b57fadd7c51add469686522a6",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/qa_rr_figures_patient46.py"
+    },
+    {
+      "path": "project/output/repairs/FYP6_REPAIR_20260908/redraw_summary_and_cost.py",
+      "bytes": 7647,
+      "sha256": "4dc34b9f31bfa560a346528b201e69defc5fdafe10d98c16b28fcc584bfb8757",
+      "source_archive_path": "FYP_Research_Release/project/output/repairs/FYP6_REPAIR_20260908/redraw_summary_and_cost.py"
+    },
+    {
+      "path": "project/provenance/build_evidence_bundle.py",
+      "bytes": 7802,
+      "sha256": "b36525c026c065fcfd90371324cba382f69ba3a601199ecdcdd19465edab790f",
+      "source_archive_path": "FYP_Research_Release/project/provenance/build_evidence_bundle.py"
+    },
+    {
+      "path": "project/review_audit/anchor/verify_anchor_alignment.py",
+      "bytes": 8566,
+      "sha256": "cd81c9eaa4c0ca45610224e151b484b611799850b46aa1cabb31c6269a2a6f62",
+      "source_archive_path": "FYP_Research_Release/project/review_audit/anchor/verify_anchor_alignment.py"
+    },
+    {
+      "path": "project/review_audit/figures/redraw_cross_architecture.py",
+      "bytes": 5585,
+      "sha256": "1376d27caa4fce8680ff3d1c0415a2342d7f6973ba5c860539885dea97c8c379",
+      "source_archive_path": "FYP_Research_Release/project/review_audit/figures/redraw_cross_architecture.py"
+    },
+    {
+      "path": "project/review_audit/figures/redraw_teacher_figures.py",
+      "bytes": 16518,
+      "sha256": "e1e739d63e2f8f5ac5053bc5ba9a02af6910b4facf30c27c491f1f1b1bcca75f",
+      "source_archive_path": "FYP_Research_Release/project/review_audit/figures/redraw_teacher_figures.py"
+    },
+    {
+      "path": "project/review_audit/regression/verify_regression_records.py",
+      "bytes": 16870,
+      "sha256": "edafb590d891adc75794a66bbe8dffb3c5773e001e83cf456bb3367f2983feb3",
+      "source_archive_path": "FYP_Research_Release/project/review_audit/regression/verify_regression_records.py"
+    },
+    {
+      "path": "project/verify_package.py",
+      "bytes": 1661,
+      "sha256": "e2ee74a7bfc5e1e2408cf6b94ea544be282a95da7f7771d8bd119f21a8ca9cf3",
+      "source_archive_path": "FYP_Research_Release/project/verify_package.py"
+    }
+  ],
+  "description": "Additional preserved scripts and documentation beyond the original scientific-code subset."
+}

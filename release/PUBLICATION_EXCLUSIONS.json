@@ -1,0 +1,83 @@
+{
+  "source_archive": "FYP_Research_Release_20260910.zip",
+  "source_archive_sha256": "ded960efb67297ef0283189018600daa7ac2db3dd7a4b89380b71f074fa576fe",
+  "excluded_files": [
+    {
+      "path": "project/provenance/original_teacher_FYP3.zip",
+      "reason": "Manuscript-only historical source archive; includes student identifier metadata and embedded Sign source-image copies."
+    },
+    {
+      "path": "project/prepare_overleaf_draft.py",
+      "reason": "Manuscript-only preparation script; parent review identified embedded student identifier and local manuscript paths."
+    },
+    {
+      "path": "project/review_audit/figures/inputs/icon_sign.png",
+      "reason": "Sign source photograph; no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F00_visual_abstract.png",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F00_visual_abstract.pdf",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F00_worked_matched_filter_example.png",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F00_worked_matched_filter_example.pdf",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F17_kernel_provenance_story.png",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F17_kernel_provenance_story.pdf",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F18_corruption_case_study.png",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F18_corruption_case_study.pdf",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F19_random_vs_diwmf_decision_chain.png",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F19_random_vs_diwmf_decision_chain.pdf",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F20_cross_task_conclusion_map.png",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/publication_figures/main/F20_cross_task_conclusion_map.pdf",
+      "reason": "Figure embeds Sign source photograph(s); no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/template_semantics_results/full20_standard_5seed/figures/sign_standard_kaiming_seed0.png",
+      "reason": "Template-example figure reproduces Sign source photographs; no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/template_semantics_results/full20_standard_5seed/figures/sign_standard_lowrank_wmf_seed0.png",
+      "reason": "Template-example figure reproduces Sign source photographs; no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/template_semantics_results/sign_full_10seed/figures/sign_standard_kaiming_seed0.png",
+      "reason": "Template-example figure reproduces Sign source photographs; no explicit dataset redistribution licence established in the recorded source."
+    },
+    {
+      "path": "project/template_semantics_results/sign_full_10seed/figures/sign_standard_lowrank_wmf_seed0.png",
+      "reason": "Template-example figure reproduces Sign source photographs; no explicit dataset redistribution licence established in the recorded source."
+    }
+  ],
+  "note": "Excluded from this publication copy; original local files were not deleted."
+}

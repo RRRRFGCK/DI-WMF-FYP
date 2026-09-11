@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-09-06T18:37:17.826239+00:00",
+  "status": "review_time_environment_not_original_per_run_lockfile",
+  "python": "3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\wyq20\\.conda\\envs\\CL2\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.7",
+    "pillow": "12.3.0",
+    "psutil": null,
+    "nvidia-ml-py": "13.610.43"
+  }
+}

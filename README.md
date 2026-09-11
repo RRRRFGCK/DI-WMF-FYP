@@ -11,21 +11,50 @@ the contribution of the fitted classifier.
 
 ## Repository contents
 
-- `project/`: frozen experiment, evaluation and figure-generation sources,
-  including the `domain_mf` implementation and tests.
+- `project/`: frozen experiment, evaluation, figure-generation and supporting
+  workflow sources, including the `domain_mf` implementation and tests.
 - `results/`: selected aggregate image and physiological results used in the
   dissertation; no individual physiological waveforms are included.
 - `PUBLIC_CODE_MANIFEST.json`: source-file hashes and snapshot provenance.
 - `PUBLIC_RESULTS_MANIFEST.json`: hashes and source aliases for the result files.
+- `PUBLIC_SUPPLEMENT_MANIFEST.json`: additional preserved workflow sources
+  and supporting documentation.
 - `DATASETS.md`: dataset access and redistribution notes.
 - `protocols/implementation_settings.tex`: recorded implementation settings.
+- `release/`: complete research-material download instructions, checksums
+  and file inventory.
 
-This public repository is the **code and aggregate-results component** of the
-research materials. It does not include raw datasets, trained checkpoints,
-per-record predictions, processed reference waveforms, or the complete 2.87 GB
-local research archive. Some analysis drivers require those additional inputs.
-The source snapshots were collected in September 2026; their Git publication
-history is not the original experiment-time development history.
+## Download research materials
+
+**Upload in progress:** the checkpoint attachments are not yet published.
+The release link below will become available after upload and verification.
+
+[Research materials: code, results and checkpoints](https://github.com/RRRRFGCK/DI-WMF-FYP/releases/tag/research-materials-20260911)
+
+The Release contains per-run records, all 5,246 saved model/tensor files and
+1,403 BIDMC prediction/reference NPZ files, including all 598 final patient-group
+checkpoint destinations. These larger files are Release attachments rather than
+Git-tracked files.
+
+Download all six numbered ZIP parts, `release_parts.json` and
+`restore_release.py` into one directory, then run:
+
+```bash
+python restore_release.py
+```
+
+The script verifies the parts and reconstructs
+`DI_WMF_Research_Materials_20260911.zip`. Extract it and follow
+`README_RELEASE.md`. The complete inventory is in
+[`release/MANIFEST.csv`](release/MANIFEST.csv).
+
+Raw dataset distributions are not included. The release omits 17 files that
+reproduce Sign source images with unconfirmed redistribution rights, one old
+thesis ZIP, and one manuscript-preparation script containing personal metadata.
+See [the exact exclusion list](release/PUBLICATION_EXCLUSIONS.json).
+All included scientific records and tensors preserve their original bytes.
+The source snapshots were collected in September 2026; the Git history records
+their publication, not the original experiment-time development history.
 
 ## Installation and inspection
 
@@ -46,7 +75,7 @@ The recorded review environment used Python 3.11.13 and PyTorch 2.8.0+cu128 on
 Windows with an NVIDIA GeForce RTX 5070 Laptop GPU. A new installation is not a
 guarantee of bitwise-identical GPU results.
 
-`verify_public.py` checks all files listed in the two public manifests, using
+`verify_public.py` checks all files listed in the three public manifests, using
 only the Python standard library. It does not run training or inference.
 
 ## Main source entry points
@@ -84,13 +113,16 @@ See the supplied result columns and dissertation for each endpoint and scope.
 
 ## Citation and versioning
 
-For a fixed version, cite this repository using the full commit identifier or
-GitHub's commit-specific tree URL. No Zenodo DOI has been assigned to this
-repository. Do not describe the complete local checkpoint archive as publicly
-available unless it has been published separately.
+For a fixed version, cite the
+[research-materials release](https://github.com/RRRRFGCK/DI-WMF-FYP/releases/tag/research-materials-20260911)
+or the corresponding Git commit. No Zenodo DOI has been assigned.
 
 ## Rights
 
-No new blanket licence for source code or third-party data is granted by this
-upload. See `DATASETS.md` for external dataset sources and terms. Dataset access
-must be arranged through the original providers.
+The release contains information from the
+[BIDMC PPG and Respiration Dataset v1.0.0](https://physionet.org/content/bidmc/1.0.0/),
+made available under the
+[Open Data Commons Attribution License v1.0](https://physionet.org/content/bidmc/view-license/1.0.0/).
+Preserve this attribution and licence link with BIDMC-derived records.
+No new blanket licence for source code or other third-party data is granted.
+See `DATASETS.md` for dataset sources and terms.

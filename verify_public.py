@@ -8,7 +8,8 @@ def main():
     root = Path(__file__).resolve().parent
     checked = 0
     failures = []
-    for name in ("PUBLIC_CODE_MANIFEST.json", "PUBLIC_RESULTS_MANIFEST.json"):
+    for name in ("PUBLIC_CODE_MANIFEST.json", "PUBLIC_RESULTS_MANIFEST.json",
+                 "PUBLIC_SUPPLEMENT_MANIFEST.json"):
         manifest = json.loads((root / name).read_text(encoding="utf-8"))
         for item in manifest["files"]:
             path = (root / item["path"]).resolve()

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "name": "DI-WMF-FYP public scientific code snapshot",
   "staged_date": "2026-09-10",
-  "scope": "Frozen Python source and original requirements only; README and result subsets are maintained separately.",
+  "scope": "Original 10 September scientific-code subset. Additional preserved sources are listed in PUBLIC_SUPPLEMENT_MANIFEST.json; records and checkpoints are distributed in the research-materials Release.",
   "file_count": 97,
   "python_file_count": 96,
   "source_manifest_hashes": {
@@ -886,36 +886,19 @@
   ],
   "explicit_source_exclusions": [
     {
-      "path": "project/audit_submission_records.py",
-      "reason": "Submission/package audit, outside the public scientific-code subset."
-    },
-    {
-      "path": "project/make_complete_thesis_package.py",
-      "reason": "Manuscript/package builder, outside the public scientific-code subset."
-    },
-    {
-      "path": "project/make_poster2_wide_hero.py",
-      "reason": "Poster-layout builder, outside the scientific experiment/figure subset."
-    },
-    {
       "path": "project/prepare_overleaf_draft.py",
       "reason": "Manuscript generator containing a private installation path and CID field."
-    },
-    {
-      "path": "project/verify_package.py",
-      "reason": "Historical package verifier; not needed for source execution and differs in the current checkout."
     }
   ],
   "excluded_categories": [
-    "Raw image and physiological datasets, processed reference waveforms and predictions",
-    "Checkpoints, tensors, per-run histories, configurations, logs and participant-level records",
-    "Manuscript source, personal metadata, original package manifests and local release documents",
-    "Unselected archive/package builders and manuscript/poster preparation scripts"
+    "Original raw dataset distributions",
+    "Sign source images without an established redistribution licence",
+    "Historical thesis ZIP and manuscript-only preparation script containing personal metadata"
   ],
   "dependency_caveats": [
     "h5py is imported by regression code but absent from the byte-preserved requirements-review.txt; install it separately.",
-    "Historical first-layer repair execution needs original configurations and filters_initial.pt, not included in this code subset.",
-    "Patient-group repair execution needs historical registry/configuration/checkpoint records and independently acquired datasets.",
+    "Historical first-layer execution needs configurations and filters_initial.pt from the research-materials Release.",
+    "Patient-group execution needs registry/configuration/checkpoint records from the Release and independently acquired datasets.",
     "Frozen nested sources and historical v1 variants are retained as provenance; do not flatten their paths or treat every script as a standalone launcher.",
     "The original environment uses PyTorch 2.8.0 and torchvision 0.23.0; several training and timing paths require CUDA."
   ],

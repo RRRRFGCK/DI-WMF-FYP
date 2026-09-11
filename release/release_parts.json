@@ -1,0 +1,37 @@
+{
+  "archive_name": "DI_WMF_Research_Materials_20260911.zip",
+  "archive_bytes": 2861435255,
+  "archive_sha256": "a35c3cd567b307edcc5911dbb073723ff9f4d1865a18821eb11dfcedd068c916",
+  "parts": [
+    {
+      "name": "DI_WMF_Research_Materials_20260911.zip.001",
+      "bytes": 536870912,
+      "sha256": "ec400df40cbe4535ef31892ca4a5cfe203ccd13416a92241e2358d85a2d1227c"
+    },
+    {
+      "name": "DI_WMF_Research_Materials_20260911.zip.002",
+      "bytes": 536870912,
+      "sha256": "53d17fd6fbbd6708fcbcae66238c69e71fe8618bcba2d273b9083fb893ecc2c0"
+    },
+    {
+      "name": "DI_WMF_Research_Materials_20260911.zip.003",
+      "bytes": 536870912,
+      "sha256": "bdb2da5b9f87dec7b44c8b86fd54cad5a8083e6d51b6a3975611fee2d6e952ac"
+    },
+    {
+      "name": "DI_WMF_Research_Materials_20260911.zip.004",
+      "bytes": 536870912,
+      "sha256": "0b4ea87279f032eb72df469099e8649fbd920a36c07d1f6bada2fb34d56c820f"
+    },
+    {
+      "name": "DI_WMF_Research_Materials_20260911.zip.005",
+      "bytes": 536870912,
+      "sha256": "c19c2a0d81152fbc11584f59ce99ad75ed219dcd454856a21b1aa36e8f0e4e1d"
+    },
+    {
+      "name": "DI_WMF_Research_Materials_20260911.zip.006",
+      "bytes": 177080695,
+      "sha256": "091e28a8ae71139c9e1eaad5396fe3686e757744c9973c4d552bf25f9b28516e"
+    }
+  ]
+}
