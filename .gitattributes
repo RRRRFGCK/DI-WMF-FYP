@@ -1,0 +1,2 @@
+# Preserve the recorded file bytes for SHA-256 verification on every platform.
+* -text
