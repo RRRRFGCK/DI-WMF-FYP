@@ -26,9 +26,6 @@ the contribution of the fitted classifier.
 
 ## Download research materials
 
-**Upload in progress:** the checkpoint attachments are not yet published.
-The release link below will become available after upload and verification.
-
 [Research materials: code, results and checkpoints](https://github.com/RRRRFGCK/DI-WMF-FYP/releases/tag/research-materials-20260911)
 
 The Release contains per-run records, all 5,246 saved model/tensor files and
